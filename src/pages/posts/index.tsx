@@ -93,7 +93,7 @@ export default function Posts({
                   <Link
                      key={post.slug}
                      legacyBehavior
-                     href={`/post/${post.slug}`}
+                     href={`/posts/${post.slug}`}
                   >
                      <a key={post.slug}>
                         <Image
