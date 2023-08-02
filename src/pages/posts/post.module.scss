@@ -14,6 +14,7 @@
       max-height: 410px;
       border-radius: 15px;
       margin-bottom: 1rem;
+      object-fit: cover;
    }
    h1 {
       font-size: 2rem;
@@ -58,5 +59,13 @@
       background: var(--gray-700);
       padding: 0.5rem;
       color: var(--white);
+   }
+}
+
+@media (max-width: 600px) {
+   .post {
+      img {
+         height: 280px;
+      }
    }
 }

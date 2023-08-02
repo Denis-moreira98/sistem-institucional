@@ -85,7 +85,7 @@ export default function Posts({
    return (
       <>
          <Head>
-            <title>Blog | Moreira dev</title>
+            <title>Blog | Dev Moreira</title>
          </Head>
          <main className={styles.container}>
             <div className={styles.posts}>

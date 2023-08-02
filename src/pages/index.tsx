@@ -53,7 +53,7 @@ export default function Home({ content }: ContentProps) {
                      <button>Começar Agora!</button>
                   </a>
                </section>
-               <img src="/images/banner-conteudos.png" alt="conteudos" />
+               <img src="/images/imgTec.svg" alt="conteudos" />
             </div>
             <hr className={styles.divisor} />
 
@@ -85,14 +85,11 @@ export default function Home({ content }: ContentProps) {
             <div className={styles.nextLevelContent}>
                <Image src={TechsImg} alt="tecnologias" />
                <h2>
-                  Mais de <span className={styles.alunos}>15 mil</span> já
-                  levaram sua carreira ao próximo nível
+                  Saiba as principais tecnologias utilizadas no mercado atual!
                </h2>
-               <span>
-                  E você vai perder a chance de evoluir de uma vez por todas?
-               </span>
-               <a>
-                  <button>ACESSAR TURMA</button>
+               <span>Notícias sobre as tendências.</span>
+               <a href="/posts">
+                  <button>ACESSAR</button>
                </a>
             </div>
          </main>

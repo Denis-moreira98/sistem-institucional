@@ -8,7 +8,7 @@ export function Header() {
       <header className={styles.headerContainer}>
          <div className={styles.headerContent}>
             <ActiveLink href="/" activeClassName={styles.active}>
-               <Image src={logo} alt="logo" />
+               <Image quality={100} src={logo} alt="logo" />
             </ActiveLink>
             <nav>
                <ActiveLink
@@ -36,9 +36,7 @@ export function Header() {
                </ActiveLink>
             </nav>
             <button className={styles.readyButton}>
-               <a href="https://denis-moreira-portfolio.vercel.app/#home">
-                  Começar
-               </a>
+               <a href="/posts">Começar</a>
             </button>
          </div>
       </header>
