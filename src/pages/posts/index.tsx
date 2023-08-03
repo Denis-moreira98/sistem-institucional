@@ -97,7 +97,7 @@ export default function Posts({
                   >
                      <a key={post.slug}>
                         <Image
-                           height={410}
+                           height={400}
                            width={720}
                            src={post.cover}
                            alt={post.title}
