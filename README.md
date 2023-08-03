@@ -1,6 +1,6 @@
 # Site Institucional 🏛️
 
-### Um site institucional, com conteúdos dinâmicos e totalmente personalizáveis. O site possui 3 páginas, Home, Conteúdo (blog) e Quem Somos, todos conteúdos dessas páginas podem ser alterados no prismic. Tudo isso foi feito através de um CMS (Prismic) junto com Nextjs.
+#### Um site institucional, com conteúdos dinâmicos e totalmente personalizáveis. O site possui 3 páginas, Home, Conteúdo (blog) e Quem Somos, todos conteúdos dessas páginas podem ser alterados no prismic. Tudo isso foi feito através de um CMS (Prismic) junto com Nextjs.
 
 ## Paginação:
 - Home: Landpage, página principal do projeto. Toda call to action e conteúdo da página principal;
@@ -8,7 +8,7 @@
 - Quem somos: Sobre a empresa.
 
 ## Conheça o [Prismic](https://prismic.io/)
-### Em resumo, o Prismic é um CMS moderno e flexível que permite a criação e gerenciamento de conteúdo de forma eficiente, possibilitando uma experiência de usuário mais dinâmica e personalizada para os visitantes do site.
+#### Em resumo, o Prismic é um CMS moderno e flexível que permite a criação e gerenciamento de conteúdo de forma eficiente, possibilitando uma experiência de usuário mais dinâmica e personalizada para os visitantes do site.
 
 ## Tecnologias utilizadas:
 - Nextjs para construção da interdace do usuário;
