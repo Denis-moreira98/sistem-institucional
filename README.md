@@ -1,38 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Site Institucional 🏛️
 
-## Getting Started
+### Um site institucional, com conteúdos dinâmicos e totalmente personalizáveis. O site possui 3 páginas, Home, Conteúdo (blog) e Quem Somos, todos conteúdos dessas páginas podem ser alterados no prismic. Tudo isso foi feito através de um CMS (Prismic) junto com Nextjs.
 
-First, run the development server:
+## Paginação:
+- Home: Landpage, página principal do projeto. Toda call to action e conteúdo da página principal;
+- Conteúdo (Blog): Um blog com conteúdos personalizados;
+- Quem somos: Sobre a empresa.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Conheça o [Prismic](https://prismic.io/)
+### Em resumo, o Prismic é um CMS moderno e flexível que permite a criação e gerenciamento de conteúdo de forma eficiente, possibilitando uma experiência de usuário mais dinâmica e personalizada para os visitantes do site.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias utilizadas:
+- Nextjs para construção da interdace do usuário;
+- SASS para estilizar todo conteúdo;
+- CMS Prismic, para criar/editar todo conteúdo do site;
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+![home](https://github.com/Denis-moreira98/sistem-institucional/assets/72985107/de9314fa-53ed-48a4-948f-ead7385a32d8)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![prismic home](https://github.com/Denis-moreira98/sistem-institucional/assets/72985107/0b1666d7-673b-4a55-a79c-8df893c1d3cc)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![blog](https://github.com/Denis-moreira98/sistem-institucional/assets/72985107/09a7245e-d993-4377-9e5f-e66e1f304228)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![blog prismic](https://github.com/Denis-moreira98/sistem-institucional/assets/72985107/3cebbca0-3508-42a2-ad4f-78db2bb20051)
 
-## Learn More
+![sobre](https://github.com/Denis-moreira98/sistem-institucional/assets/72985107/1b452ded-769d-453c-85df-a29435ef4f2a)
 
-To learn more about Next.js, take a look at the following resources:
+![sobre prismic](https://github.com/Denis-moreira98/sistem-institucional/assets/72985107/47334ec8-e958-489d-b2bc-2477d79f0601)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
