@@ -78,7 +78,7 @@ export default function Home({ content }: ContentProps) {
                />
 
                <section>
-                  <h2>{content.mobileTitle}</h2>
+                  <h2>{content.titleWeb}</h2>
                   <span>{content.webContent}</span>
                </section>
             </div>
