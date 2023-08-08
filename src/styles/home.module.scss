@@ -37,7 +37,7 @@
       display: flex;
       background-color: var(--blue-900);
       border: 0;
-      padding: 1rem 1.8rem;
+      padding: 0.5rem 1.8rem;
       margin-top: 2.5rem;
       border-radius: 4px;
       color: var(--white);
@@ -185,6 +185,31 @@
          img {
             margin-top: 2rem;
             max-width: 400px;
+         }
+      }
+   }
+}
+@media (max-width: 460px) {
+   .container {
+      padding: 0 1rem;
+
+      .containerHeader {
+         button {
+            display: block;
+         }
+      }
+      img {
+         width: 100%;
+         max-width: 300px;
+      }
+      div h1 {
+         font-size: 2.5rem;
+      }
+      div h2 {
+         font-size: 2.3rem;
+
+         span {
+            font-size: 2.3rem;
          }
       }
    }

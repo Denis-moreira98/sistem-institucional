@@ -2,7 +2,6 @@ import styles from "./styles.module.scss";
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-import Image from "next/image";
 import { getPrismicClient } from "../../services/prismic";
 import Prismic from "@prismicio/client";
 import { RichText } from "prismic-dom";
@@ -96,15 +95,7 @@ export default function Posts({
                      href={`/posts/${post.slug}`}
                   >
                      <a key={post.slug}>
-                        <Image
-                           height={400}
-                           width={720}
-                           src={post.cover}
-                           alt={post.title}
-                           quality={100}
-                           blurDataURL="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0s7adBwACqwFOuZTNBQAAAABJRU5ErkJggg==" //https://png-pixel.com/
-                           placeholder="blur"
-                        />
+                        <img width={720} src={post.cover} alt={post.title} />
                         <strong>{post.title}</strong>
                         <time>{post.updatedAt}</time>
                         <p>{post.description}</p>

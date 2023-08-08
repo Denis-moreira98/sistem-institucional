@@ -11,18 +11,20 @@
    align-items: center;
 
    img {
-      max-width: 490px;
+      width: 100%;
+      max-width: 600px;
       border-radius: 10px;
    }
 }
 
 .ctaText {
    max-width: 600px;
+   margin-right: 15px;
 
    h1 {
       font-size: 3rem;
       font-weight: 700;
-      margin: 2.5rem 0;
+      margin: 2.5rem;
       color: var(--white);
    }
    p {
@@ -39,6 +41,7 @@
       cursor: pointer;
       margin-left: 15px;
       transition: color 0.3s;
+      margin-bottom: 15px;
    }
    svg:hover {
       color: var(--blue-900);
@@ -52,8 +55,10 @@
       padding: 0.5rem 1rem;
 
       img {
-         max-width: 390px;
-         padding: 2rem 0;
+         width: 100%;
+         border-radius: 10px;
+         margin-bottom: 20px;
+         object-fit: cover;
       }
    }
    .ctaText {

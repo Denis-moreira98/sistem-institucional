@@ -6,6 +6,7 @@ import { RichText } from "prismic-dom";
 
 import Head from "next/head";
 import Image from "next/image";
+import { relative } from "path";
 
 interface PostProps {
    post: {
@@ -28,8 +29,8 @@ export default function Post({ post }: PostProps) {
                <Image
                   quality={100}
                   src={post.cover}
-                  width={720}
-                  height={410}
+                  width={750}
+                  height={400}
                   alt={post.title}
                   placeholder="blur"
                   blurDataURL="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mM0s7adBwACqwFOuZTNBQAAAABJRU5ErkJggg=="
