@@ -1,33 +1,32 @@
 .headerContainer {
+   position: fixed;
    width: 100%;
-   height: 6rem;
+   height: 5rem;
    border-bottom: 1px solid var(--gray-200);
    background: var(--gray-700);
+   box-shadow: rgba(37, 89, 138, 0.3) 0px 3px, rgba(37, 89, 138, 0.2) 0px 5px,
+      rgba(37, 89, 138, 0.1) 0px 8px, rgba(37, 89, 138, 0.05) 0px 8px;
 }
 
 .headerContent {
    max-width: 1120px;
-   height: 6rem;
+   height: 5rem;
    margin: 0 auto;
-
    display: flex;
    align-items: center;
 
    img {
-      margin: 10px;
       cursor: pointer;
-      height: 4.5rem;
+      height: 80px;
+      width: 68px;
    }
    nav {
       margin-left: 5rem;
-      height: 6rem;
    }
    a {
       display: inline-block;
       position: relative;
       padding: 0 0rem;
-      height: 6rem;
-      line-height: 6rem;
       color: var(--gray-100);
       transition: color 0.3s;
 
@@ -46,19 +45,19 @@
 
 .readyButton {
    margin-left: auto;
-   height: 3rem;
-   border-radius: 3rem;
-   background-color: var(--blue-900);
+   height: 2.9rem;
+   border-radius: 8px;
+   background-color: var(--blue-800);
    border: 0;
    padding: 0 1.5rem;
    display: flex;
    align-items: center;
    justify-content: center;
    font-weight: bold;
-   transition: filter 0.3s;
+   transition: all 0.5s;
 
    &:hover {
-      filter: brightness(1.1);
+      transform: scale(1.1);
    }
 
    a {
