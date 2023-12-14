@@ -9,10 +9,11 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   gap: 1rem;
 
    img {
       width: 100%;
-      max-width: 600px;
+      max-width: 550px;
       border-radius: 10px;
    }
 }
@@ -24,7 +25,7 @@
    h1 {
       font-size: 3rem;
       font-weight: 700;
-      margin: 2.5rem;
+      margin-bottom: 1rem;
       color: var(--white);
    }
    p {
@@ -32,6 +33,7 @@
       line-height: 2.25rem;
       color: var(--white);
       white-space: pre-wrap;
+      text-align: justify;
    }
    a svg {
       margin-top: 15px;
@@ -44,7 +46,7 @@
       margin-bottom: 15px;
    }
    svg:hover {
-      color: var(--blue-900);
+      color: var(--blue-800);
    }
 }
 
