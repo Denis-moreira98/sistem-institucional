@@ -53,7 +53,9 @@ export default function Home({ content }: ContentProps) {
                      <button>Começar Agora!</button>
                   </a>
                </section>
-               <img src="/images/imgTec.svg" alt="conteudos" />
+               <div className={styles.div_img}>
+                  <img src="/images/imgTec.svg" alt="conteudos" />
+               </div>
             </div>
             <hr className={styles.divisor} />
 
@@ -62,35 +64,43 @@ export default function Home({ content }: ContentProps) {
                   <h2>{content.mobileTitle}</h2>
                   <span>{content.mobileContent}</span>
                </section>
-
-               <img
-                  src={content.mobileBanner}
-                  alt="Conteúdos desenvolvimento de apps"
-               />
+               <div className={styles.div_img2}>
+                  <img
+                     src={content.mobileBanner}
+                     alt="Conteúdos desenvolvimento de apps"
+                  />
+               </div>
             </div>
 
             <hr className={styles.divisor} />
 
             <div className={styles.sectionContent}>
-               <img
-                  src={content.webBanner}
-                  alt="Conteúdos desenvolvimento de aplicacoes web"
-               />
+               <div className={styles.div_img3}>
+                  <img src={content.webBanner} alt="foto" />
+               </div>
 
                <section>
                   <h2>{content.titleWeb}</h2>
                   <span>{content.webContent}</span>
                </section>
             </div>
+            <hr className={styles.divisor} />
             <div className={styles.nextLevelContent}>
-               <Image src={TechsImg} alt="tecnologias" />
-               <h2>
-                  Saiba as principais tecnologias utilizadas no mercado atual!
-               </h2>
-               <span>Notícias sobre as tendências.</span>
-               <a href="/posts">
-                  <button>ACESSAR</button>
-               </a>
+               <div>
+                  <Image src={TechsImg} alt="tecnologias" />
+               </div>
+
+               <section>
+                  <h2>
+                     Saiba as principais tecnologias utilizadas no mercado
+                     atual!
+                  </h2>
+                  <span>Notícias sobre as tendências.</span>
+                  <br></br>
+                  <a href="/posts">
+                     <button>ACESSAR</button>
+                  </a>
+               </section>
             </div>
          </main>
       </>
